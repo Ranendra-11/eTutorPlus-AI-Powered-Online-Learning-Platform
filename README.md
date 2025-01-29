@@ -52,7 +52,7 @@
 
 ## Contributors
 
-- **EduTech Solutions Inc.** Development Team
+- Ranendra Reddy Boompelly
 
 ## License
 
