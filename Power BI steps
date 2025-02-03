@@ -1,0 +1,75 @@
+eTutorPlus Power BI Visualizations
+
+1. Student Engagement Analysis
+
+Visualization Type: Bar Chart
+
+Fields Used: student_id (Dimension), engagement_score (Measure)
+
+Steps to Create:
+
+Drag student_id to Axis.
+
+Drag engagement_score to Values.
+
+Sort by engagement_score in descending order.
+
+Display top 10 most engaged students.
+
+2. Time Spent vs. Quiz Scores
+
+Visualization Type: Scatter Plot
+
+Fields Used: time_spent (Measure), quiz_scores (Measure)
+
+Steps to Create:
+
+Drag time_spent to X-axis.
+
+Drag quiz_scores to Y-axis.
+
+Color data points by student_success to identify trends.
+
+3. AI Assist Usage Impact
+
+Visualization Type: Pie Chart
+
+Fields Used: ai_assist_usage (Dimension), student_success (Measure)
+
+Steps to Create:
+
+Drag ai_assist_usage to Legend.
+
+Drag student_success to Values.
+
+Display percentage of students benefiting from AI assistance.
+
+4. Success Rate by Time Spent
+
+Visualization Type: Line Chart
+
+Fields Used: time_spent (Measure), student_success (Measure)
+
+Steps to Create:
+
+Drag time_spent to X-axis.
+
+Drag student_success to Y-axis.
+
+Identify patterns in student success based on time invested in learning.
+
+5. Overall Student Performance
+
+Visualization Type: KPI Card
+
+Fields Used: student_success (Measure)
+
+Steps to Create:
+
+Select KPI visual.
+
+Drag student_success to Indicator field.
+
+Set goal benchmark based on median success rate.
+
+Data Source: The dataset etutor_tableau_ready.csv is preprocessed and can be used for Power BI visualization. These visualizations will provide insights into student engagement, AI impact, and learning efficiency.
